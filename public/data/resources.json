@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Cybersecurity Resources",
-    "description": "",
-    "lastUpdated": "2026-08-19"
+    "description": "A curated collection of cybersecurity tools, references, and learning materials.",
+    "lastUpdated": "2026-09-19"
   },
   "resources": [
     {
@@ -146,6 +146,15 @@
       "description": "International standard for information security management systems.",
       "category": "Frameworks & Standards",
       "tags": ["standards"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Awesome Security Hardening",
+      "url": "https://github.com/decalage2/awesome-security-hardening",
+      "description": "Curated hardening guides, checklists, and tools for OSes, databases, and containers.",
+      "category": "Frameworks & Standards",
+      "tags": ["hardening", "reference"],
       "type": "website",
       "downloadable": false
     },
@@ -609,6 +618,33 @@
       "downloadable": false
     },
     {
+      "title": "Instant Username Search",
+      "url": "https://instantusername.com/",
+      "description": "Checks a username across dozens of social networks in real time.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "scanning"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "SearchPhone",
+      "url": "https://github.com/HackUnderway/SearchPhone",
+      "description": "OSINT toolkit for phone number lookups across multiple sources with PDF reporting.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "scanning"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Web scraping API that turns sites into clean markdown, useful for bulk collection.",
+      "category": "OSINT & Reconnaissance",
+      "tags": ["osint", "web"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/",
       "description": "Security news, forums, and tech help for a broad audience.",
@@ -879,6 +915,15 @@
       "downloadable": false
     },
     {
+      "title": "StegOnline Checklist",
+      "url": "https://georgeom.net/StegOnline/checklist",
+      "description": "Step-by-step steganography workflow checklist for CTF challenges, from file signatures to advanced extraction.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "steganography", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "ExifTool Online",
       "url": "https://exiftool.online/",
       "description": "Online interface to the powerful ExifTool for reading and editing image metadata.",
@@ -902,6 +947,24 @@
       "description": "Free online tool for analyzing Exif Data from images. It puts it through a ton of filters.",
       "category": "Digital Forensics",
       "tags": ["forensics", "steganography"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Stego-Lsb",
+      "url": "https://github.com/ragibson/Steganography",
+      "description": "LSB steganography and steganalysis toolkit for BMP, PNG, and WAV files.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "steganography"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "HexEd.it",
+      "url": "https://hexed.it/",
+      "description": "Browser-based hexadecimal editor for inspecting and editing files byte by byte.",
+      "category": "Digital Forensics",
+      "tags": ["forensics", "reverse-engineering"],
       "type": "website",
       "downloadable": false
     },
@@ -969,6 +1032,60 @@
       "downloadable": false
     },
     {
+      "title": "Aperi'Kube",
+      "url": "https://www.aperikube.fr/",
+      "description": "French CTF team behind AperiSolve, sharing writeups and CTF tooling.",
+      "category": "Training & Education",
+      "tags": ["ctf", "training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CTF Support",
+      "url": "https://ctf.support/",
+      "description": "Growing collection of notes, tools, and tutorials for CTF learners.",
+      "category": "Training & Education",
+      "tags": ["ctf", "training", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Build Your Own X",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Step-by-step tutorials for rebuilding databases, operating systems, and more.",
+      "category": "Training & Education",
+      "tags": ["training", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "CS Video Courses",
+      "url": "https://github.com/Developer-Y/cs-video-courses",
+      "description": "Curated list of free computer science video courses, including security topics.",
+      "category": "Training & Education",
+      "tags": ["training", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "NotPRON",
+      "url": "https://notpron.com/notpron/",
+      "description": "The famously hard internet riddle, training lateral thinking and source-diving.",
+      "category": "Training & Education",
+      "tags": ["training"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Awesome Lists",
+      "url": "https://github.com/sindresorhus/awesome",
+      "description": "The curated list of awesome lists, covering nearly every tech topic.",
+      "category": "Training & Education",
+      "tags": ["training", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
       "title": "Unix Ninja Hashing Cheatsheet",
       "url": "https://www.unix-ninja.com/p/A_cheat-sheet_for_password_crackers",
       "description": "Extraction of hidden data from text files, wordlist manipulation, and filtering.",
@@ -1028,6 +1145,42 @@
       "description": "Probably close to 100 tools from encryption to QR code generation.",
       "category": "Cryptography & Privacy",
       "tags": ["cryptography", "reference"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Collisions",
+      "url": "https://github.com/corkami/collisions",
+      "description": "Hash collision tools and examples (MD5, SHA1) with exploitation techniques.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography", "vulnerabilities"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Convert String",
+      "url": "https://www.convertstring.com/",
+      "description": "Online converters for Base64, hex, URL encoding, and common hash algorithms.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "OmniTools",
+      "url": "https://omnitools.app/",
+      "description": "Collection of free browser tools for encoding, hashing, and everyday data conversion.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "NamLabs Tools",
+      "url": "https://tools.namlabs.com/",
+      "description": "Free developer toolkit covering encoders, formatters, validators, and crypto utilities.",
+      "category": "Cryptography & Privacy",
+      "tags": ["cryptography"],
       "type": "website",
       "downloadable": false
     },
@@ -1102,6 +1255,42 @@
       "tags": ["reverse-engineering", "ctf"],
       "type": "website",
       "downloadable": false
+    },
+    {
+      "title": "Binvis.io",
+      "url": "https://binvis.io/",
+      "description": "Interactive visualization of binary structure, entropy, and strings in the browser.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "website",
+      "downloadable": false
+    },
+    {
+      "title": "Corkami Pics",
+      "url": "https://github.com/corkami/pics",
+      "description": "Classic posters dissecting executable file formats like PE, ELF, and Mach-O.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering", "reference"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "Mitra",
+      "url": "https://github.com/corkami/mitra",
+      "description": "Binary morphing engine combining polyglots and patterns to evade detection.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "download",
+      "downloadable": true
+    },
+    {
+      "title": "TruePolyglot",
+      "url": "https://github.com/ansemjo/truepolyglot",
+      "description": "Command-line tool for building polyglot files valid across multiple formats.",
+      "category": "Malware Analysis",
+      "tags": ["malware", "reverse-engineering"],
+      "type": "download",
+      "downloadable": true
     }
   ]
 }
